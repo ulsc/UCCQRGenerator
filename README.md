@@ -19,7 +19,21 @@ as simple as this:
 
 ```swift
 // Put in a string, width (= height) and a correction level. You get a UIImage.
-UCCQRGenerator.generateQR("http://www.google.com",200,UCCQRCorrectionLevel.Percent30)
+UCCQRGenerator.generateQR("http://www.progeek.co",200,UCCQRCorrectionLevel.Percent30)
+```
+
+or simpler:
+
+```swift
+// Put in a string and width (= height). Get a UIImage with default Correction Level (Percent25)
+UCCQRGenerator.generateQR("http://www.progeek.co",200)
+```
+
+or even simpler:
+
+```swift
+// Put in a string. Get a UIImage with default Width (=height =200) and default Correction Level (Percent25)
+UCCQRGenerator.generateQR("http://www.progeek.co")
 ```
 
 What is a Correction Level?
