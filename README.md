@@ -23,19 +23,16 @@ UCCQRGenerator.generateQR("http://www.google.com",200,UCCQRCorrectionLevel.Perce
 What is a Correction Level?
 ---------------------------
 
-Correction Level creates error correction codewords (bytes) based on the encoded data. A QR code reader can use these error correction bytes to determine if it did not read the data correctly, and the error correction codewords can be used to correct those errors. There are four levels on UCCQRCorrectionLevel:
+Correction Level creates error correction codewords (bytes) based on the encoded data. A QR code reader can use these error correction bytes to determine if it did not read the data correctly, and the error correction codewords can be used to correct those errors.
 
-Percent7 - (aka. "L")	- Recovers 7% of data
-Percent15	Recovers 15% of data
-Percent25	Recovers 25% of data
-Percent30	Recovers 30% of data
+There are four levels on `UCCQRCorrectionLevel`:
 
 | Value        | aka. | Description          |
 | ------------ | ---- | -------------------- |
-| Percent7     | "L"  | Recovers 7% of data  |
-| Percent15    | "M"  | Recovers 15% of data |
-| Percent25    | "Q"  | Recovers 25% of data |
-| Percent30    | "H"  | Recovers 30% of data |
+| `Percent7`     | "L"  | Recovers 7% of data  |
+| `Percent15`    | "M"  | Recovers 15% of data |
+| `Percent25`    | "Q"  | Recovers 25% of data |
+| `Percent30`    | "H"  | Recovers 30% of data |
 
 Be aware higher levels of error correction require more bytes, so the higher the error correction level, the larger the QR code will have to be.
 
