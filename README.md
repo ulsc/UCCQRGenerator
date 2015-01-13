@@ -1,7 +1,7 @@
 # UCCQRGenerator
 Extremely Lightweight QR Code Generator for Swift
 
-Focused only on generatig a QR code to create fastest option available.
+Focused only on generating QR codes to create the fastest option available.
 
 ![UCCQRGenerator Sample](https://github.com/ulsc/UCCQRGenerator/blob/master/UCCQRGenerator_sample.png "UCCQRGenerator Sample")
 
